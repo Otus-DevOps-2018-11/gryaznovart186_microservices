@@ -1,0 +1,110 @@
+[
+    {
+        "Id": "sha256:881bd08c0b08234bd19136957f15e4301097f4646c1e700f7fea26e41fc40069",
+        "RepoTags": [
+            "nginx:latest"
+        ],
+        "RepoDigests": [
+            "nginx@sha256:98efe605f61725fd817ea69521b0eeb32bef007af0e3d0aeb6258c6e6fe7fc1a"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2019-03-05T04:34:40.803983958Z",
+        "Container": "82067b49ee8c4bc91d386798148f1f2cfdb0ff39076873c8d40e1e1baf521eb7",
+        "ContainerConfig": {
+            "Hostname": "82067b49ee8c",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NGINX_VERSION=1.15.9-1~stretch",
+                "NJS_VERSION=1.15.9.0.2.8-1~stretch"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"nginx\" \"-g\" \"daemon off;\"]"
+            ],
+            "ArgsEscaped": true,
+            "Image": "sha256:4a9060e0ac21710c70f99ec2fb604b1c2847ced2acf10e4d4e86905d554dc685",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {
+                "maintainer": "NGINX Docker Maintainers <docker-maint@nginx.com>"
+            },
+            "StopSignal": "SIGTERM"
+        },
+        "DockerVersion": "18.06.1-ce",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NGINX_VERSION=1.15.9-1~stretch",
+                "NJS_VERSION=1.15.9.0.2.8-1~stretch"
+            ],
+            "Cmd": [
+                "nginx",
+                "-g",
+                "daemon off;"
+            ],
+            "ArgsEscaped": true,
+            "Image": "sha256:4a9060e0ac21710c70f99ec2fb604b1c2847ced2acf10e4d4e86905d554dc685",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {
+                "maintainer": "NGINX Docker Maintainers <docker-maint@nginx.com>"
+            },
+            "StopSignal": "SIGTERM"
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 109252443,
+        "VirtualSize": 109252443,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/141b8a91f26068512058e64f1c4ec5092cd39b7ffd4e637a6ee96ef0da6fa1ff/diff:/var/lib/docker/overlay2/e283578a9c39f39bc29646f0d628e5f840ec259fe293f1543a86ebecaa0abde4/diff",
+                "MergedDir": "/var/lib/docker/overlay2/fd15f9a92de62b12a20e29b9c42baa7259d8ffdb6f82e4fdb28168b7b44b0e66/merged",
+                "UpperDir": "/var/lib/docker/overlay2/fd15f9a92de62b12a20e29b9c42baa7259d8ffdb6f82e4fdb28168b7b44b0e66/diff",
+                "WorkDir": "/var/lib/docker/overlay2/fd15f9a92de62b12a20e29b9c42baa7259d8ffdb6f82e4fdb28168b7b44b0e66/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:6744ca1b11903f4db4d5e26145f6dd20f9a6d321a7f725f1a0a7a45a4174c579",
+                "sha256:c59b3ca455e3e3fc50d0102af9e4cb585aa6ce806aa9ed2db536c9525df3ca89",
+                "sha256:3e9eb35b1c23abd3b0852f16454425f78ff65dee17d4956e1dbd08202d36d9b2"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
