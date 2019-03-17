@@ -1,0 +1,3 @@
+*.vscode
+dockermonolith/image_id.txt
+dockermonolith/container_id.txt
