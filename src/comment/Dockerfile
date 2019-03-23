@@ -1,15 +1,19 @@
-FROM python:3.6.0-alpine
+FROM ruby:2.2-alpine
 
-WORKDIR /app
-COPY . /app
 
-RUN apk update \
-&& apk add --no-cache --virtual .build-deps build-base \
-&& pip install --upgrade --no-cache-dir pip \
-&& pip install --no-cache-dir -r /app/requirements.txt \
+ENV APP_HOME /app
+WORKDIR $APP_HOME
+
+COPY Gemfile* $APP_HOME/
+
+RUN apk add --no-cache --virtual .build-deps make gcc libc-dev \
+&& gem install bundler --no-ri --no-rdoc -v 1.17.3 \
+&& bundle install \
 && apk del .build-deps
 
-ENV POST_DATABASE_HOST post_db
-ENV POST_DATABASE posts
+COPY . $APP_HOME
 
-ENTRYPOINT ["python3", "post_app.py"]
+ENV COMMENT_DATABASE_HOST comment_db
+ENV COMMENT_DATABASE comments
+
+CMD ["puma"]
