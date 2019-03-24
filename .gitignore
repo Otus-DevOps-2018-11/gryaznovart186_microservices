@@ -2,3 +2,4 @@
 dockermonolith/image_id.txt
 dockermonolith/container_id.txt
 dockerrun.txt
+.env

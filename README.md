@@ -37,3 +37,9 @@
 `docker run --name comment -d --network=reddit --network-alias=comment_env -e COMMENT_DATABASE_HOST=comment_db_env gryaznovart186/comment:2.0`
 
 `docker run --name ui -d --network=reddit -p 9292:9292 -e POST_SERVICE_HOST=post_env -e COMMENT_SERVICE_HOST=comment_env gryaznovart186/ui:2.1`
+
+## ДЗ №17 Docker: сети, docker-compose
+Базовое имя проекта, по умолчанию, образуется из имени директории в которой производится запуск
+Способы изменения:
+ - запустить docker-compose up -d -p new_project_name
+ - задать в переменной окружения COMPOSE_PROJECT_NAME
