@@ -43,3 +43,10 @@
 Способы изменения:
  - запустить docker-compose up -d -p new_project_name
  - задать в переменной окружения COMPOSE_PROJECT_NAME
+
+## ДЗ №19 Устройство Gitlab CI
+ - С помощью docker-mahine подготовлена VM для gitlab
+ - С помощью docker-copmpose запущен docker с gitlab
+ - Создан проект  и пр.
+ - С помощью docker-copmpose запущен docker с gitlab runner, runner подключен к gitlab
+ - Подготовлен pipeline c различными окружениями
