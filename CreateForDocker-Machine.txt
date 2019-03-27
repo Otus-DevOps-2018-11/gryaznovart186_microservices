@@ -1,0 +1,9 @@
+docker-machine create --driver google \
+--google-project docker-234716 \
+--google-machine-image https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/images/ubuntu-minimal-1804-bionic-v20190320 \
+--google-machine-type n1-highcpu-2 \
+--google-disk-size 60 \
+--google-zone europe-west1-b \
+gitlab
+
+
