@@ -2,6 +2,8 @@ stages:
   - build
   - test
   - review
+  - stage
+  - production
 
 build_job:
   stage: build
