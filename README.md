@@ -50,3 +50,11 @@
  - Создан проект  и пр.
  - С помощью docker-copmpose запущен docker с gitlab runner, runner подключен к gitlab
  - Подготовлен pipeline c различными окружениями
+
+
+## ДЗ №20 Введение вмониторинг. Системы мониторинга.
+Ссылки на образы:
+ - https://cloud.docker.com/repository/docker/gryaznovart186/prometheus
+ - https://cloud.docker.com/repository/docker/gryaznovart186/post
+ - https://cloud.docker.com/repository/docker/gryaznovart186/comment
+ - https://cloud.docker.com/repository/docker/gryaznovart186/ui
