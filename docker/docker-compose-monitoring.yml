@@ -2,7 +2,7 @@
 version: '3.3'
 services:
   prometheus:
-    image: ${USER_NAME}/prometheus:latest
+    image: ${USERNAME}/prometheus:latest
     ports:
       - '9090:9090'
     volumes:
