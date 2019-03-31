@@ -32,7 +32,7 @@ services:
       monitor:
 
   comment:
-    image: gryaznovart186/comment:${commentver}
+    image: ${USERNAME}/comment:${commentver}
     networks:
       front_net:
         aliases:
