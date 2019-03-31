@@ -54,7 +54,7 @@ services:
       monitor:
 
   alertmanager:
-    image: ${USER_NAME}/alertmanager:latest
+    image: ${USERNAME}/alertmanager:latest
     command:
       - '--config.file=/etc/alertmanager/config.yml'
     ports:
