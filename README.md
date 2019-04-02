@@ -58,3 +58,11 @@
  - https://cloud.docker.com/repository/docker/gryaznovart186/post
  - https://cloud.docker.com/repository/docker/gryaznovart186/comment
  - https://cloud.docker.com/repository/docker/gryaznovart186/ui
+
+## ДЗ №21 Мониторингприложения иинфраструктуры
+Ссылки на образы:
+ - https://cloud.docker.com/repository/docker/gryaznovart186/prometheus
+ - https://cloud.docker.com/repository/docker/gryaznovart186/post
+ - https://cloud.docker.com/repository/docker/gryaznovart186/comment
+ - https://cloud.docker.com/repository/docker/gryaznovart186/ui
+ - https://cloud.docker.com/repository/docker/gryaznovart186/alertmanager
