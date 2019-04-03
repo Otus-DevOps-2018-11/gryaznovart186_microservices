@@ -10,12 +10,14 @@ services:
         aliases:
           - post_db
           - comment_db
-      monitor:
+
 
   ui:
     image: ${USERNAME}/ui:${uiver}
     ports:
       - ${UIPORT}:9292/tcp
+    environment:
+      - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
     logging:
       driver: "fluentd"
       options:
@@ -23,10 +25,12 @@ services:
         tag: service.ui
     networks:
       front_net:
-      monitor:
+
 
   post:
     image: ${USERNAME}/post:${postver}
+    environment:
+      - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
     logging:
       driver: "fluentd"
       options:
@@ -39,10 +43,12 @@ services:
       back_net:
         aliases:
           - post
-      monitor:
+
 
   comment:
     image: ${USERNAME}/comment:${commentver}
+    environment:
+      - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
     networks:
       front_net:
         aliases:
@@ -50,12 +56,10 @@ services:
       back_net:
         aliases:
           - comment
-      monitor:
 
 networks:
   front_net:
   back_net:
-  monitor:
 
 volumes:
   post_db:
