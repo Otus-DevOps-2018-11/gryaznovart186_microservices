@@ -1,0 +1,98 @@
+[2019-04-01T16:25:41,058][INFO ][o.e.e.NodeEnvironment    ] [-qs04s2] using [1] data paths, mounts [[/ (overlay)]], net usable_space [5.6gb], net total_space [9.6gb], types [overlay]
+[2019-04-01T16:25:41,071][INFO ][o.e.e.NodeEnvironment    ] [-qs04s2] heap size [1015.6mb], compressed ordinary object pointers [true]
+[2019-04-01T16:25:41,079][INFO ][o.e.n.Node               ] [-qs04s2] node name derived from node ID [-qs04s2pRBObwcSWv_lRqg]; set [node.name] to override
+[2019-04-01T16:25:41,083][INFO ][o.e.n.Node               ] [-qs04s2] version[6.7.0], pid[1], build[default/docker/8453f77/2019-03-21T15:32:29.844721Z], OS[Linux/4.15.0-1028-gcp/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12/12+33]
+[2019-04-01T16:25:41,083][INFO ][o.e.n.Node               ] [-qs04s2] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch-4122912650718466932, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Djava.locale.providers=COMPAT, -XX:UseAVX=2, -Des.cgroups.hierarchy.override=/, -Des.path.home=/usr/share/elasticsearch, -Des.path.conf=/usr/share/elasticsearch/config, -Des.distribution.flavor=default, -Des.distribution.type=docker]
+[2019-04-01T16:25:49,472][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [aggs-matrix-stats]
+[2019-04-01T16:25:49,475][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [analysis-common]
+[2019-04-01T16:25:49,476][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [ingest-common]
+[2019-04-01T16:25:49,476][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [ingest-geoip]
+[2019-04-01T16:25:49,476][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [ingest-user-agent]
+[2019-04-01T16:25:49,478][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [lang-expression]
+[2019-04-01T16:25:49,485][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [lang-mustache]
+[2019-04-01T16:25:49,486][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [lang-painless]
+[2019-04-01T16:25:49,486][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [mapper-extras]
+[2019-04-01T16:25:49,486][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [parent-join]
+[2019-04-01T16:25:49,486][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [percolator]
+[2019-04-01T16:25:49,487][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [rank-eval]
+[2019-04-01T16:25:49,487][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [reindex]
+[2019-04-01T16:25:49,487][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [repository-url]
+[2019-04-01T16:25:49,490][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [transport-netty4]
+[2019-04-01T16:25:49,491][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [tribe]
+[2019-04-01T16:25:49,491][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-ccr]
+[2019-04-01T16:25:49,491][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-core]
+[2019-04-01T16:25:49,491][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-deprecation]
+[2019-04-01T16:25:49,491][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-graph]
+[2019-04-01T16:25:49,492][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-ilm]
+[2019-04-01T16:25:49,492][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-logstash]
+[2019-04-01T16:25:49,492][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-ml]
+[2019-04-01T16:25:49,492][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-monitoring]
+[2019-04-01T16:25:49,493][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-rollup]
+[2019-04-01T16:25:49,493][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-security]
+[2019-04-01T16:25:49,493][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-sql]
+[2019-04-01T16:25:49,493][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-upgrade]
+[2019-04-01T16:25:49,493][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-watcher]
+[2019-04-01T16:25:49,494][INFO ][o.e.p.PluginsService     ] [-qs04s2] no plugins loaded
+[2019-04-01T16:26:15,592][INFO ][o.e.x.s.a.s.FileRolesStore] [-qs04s2] parsed [0] roles from file [/usr/share/elasticsearch/config/roles.yml]
+[2019-04-01T16:26:19,019][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [-qs04s2] [controller/71] [Main.cc@109] controller (64 bit): Version 6.7.0 (Build d74ae2ac01b10d) Copyright (c) 2019 Elasticsearch BV
+[2019-04-01T16:26:23,224][INFO ][o.e.d.DiscoveryModule    ] [-qs04s2] using discovery type [zen] and host providers [settings]
+[2019-04-01T16:26:27,700][INFO ][o.e.n.Node               ] [-qs04s2] initialized
+[2019-04-01T16:26:27,706][INFO ][o.e.n.Node               ] [-qs04s2] starting ...
+[2019-04-01T16:26:28,710][INFO ][o.e.t.TransportService   ] [-qs04s2] publish_address {172.25.0.2:9300}, bound_addresses {0.0.0.0:9300}
+[2019-04-01T16:26:28,847][INFO ][o.e.b.BootstrapChecks    ] [-qs04s2] bound or publishing to a non-loopback address, enforcing bootstrap checks
+ERROR: [1] bootstrap checks failed
+[1]: max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2019-04-01T16:26:28,949][INFO ][o.e.n.Node               ] [-qs04s2] stopping ...
+[2019-04-01T16:26:28,999][INFO ][o.e.n.Node               ] [-qs04s2] stopped
+[2019-04-01T16:26:29,003][INFO ][o.e.n.Node               ] [-qs04s2] closing ...
+[2019-04-01T16:26:29,076][INFO ][o.e.n.Node               ] [-qs04s2] closed
+[2019-04-01T16:26:29,084][INFO ][o.e.x.m.p.NativeController] [-qs04s2] Native controller process has stopped - no new native processes can be started
+[2019-04-01T16:29:10,709][INFO ][o.e.e.NodeEnvironment    ] [-qs04s2] using [1] data paths, mounts [[/ (overlay)]], net usable_space [5.6gb], net total_space [9.6gb], types [overlay]
+[2019-04-01T16:29:10,728][INFO ][o.e.e.NodeEnvironment    ] [-qs04s2] heap size [1015.6mb], compressed ordinary object pointers [true]
+[2019-04-01T16:29:10,737][INFO ][o.e.n.Node               ] [-qs04s2] node name derived from node ID [-qs04s2pRBObwcSWv_lRqg]; set [node.name] to override
+[2019-04-01T16:29:10,741][INFO ][o.e.n.Node               ] [-qs04s2] version[6.7.0], pid[1], build[default/docker/8453f77/2019-03-21T15:32:29.844721Z], OS[Linux/4.15.0-1028-gcp/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12/12+33]
+[2019-04-01T16:29:10,742][INFO ][o.e.n.Node               ] [-qs04s2] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch-12186091089965285137, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Djava.locale.providers=COMPAT, -XX:UseAVX=2, -Des.cgroups.hierarchy.override=/, -Des.path.home=/usr/share/elasticsearch, -Des.path.conf=/usr/share/elasticsearch/config, -Des.distribution.flavor=default, -Des.distribution.type=docker]
+[2019-04-01T16:29:15,742][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [aggs-matrix-stats]
+[2019-04-01T16:29:15,742][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [analysis-common]
+[2019-04-01T16:29:15,743][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [ingest-common]
+[2019-04-01T16:29:15,743][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [ingest-geoip]
+[2019-04-01T16:29:15,743][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [ingest-user-agent]
+[2019-04-01T16:29:15,743][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [lang-expression]
+[2019-04-01T16:29:15,743][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [lang-mustache]
+[2019-04-01T16:29:15,743][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [lang-painless]
+[2019-04-01T16:29:15,744][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [mapper-extras]
+[2019-04-01T16:29:15,744][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [parent-join]
+[2019-04-01T16:29:15,744][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [percolator]
+[2019-04-01T16:29:15,744][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [rank-eval]
+[2019-04-01T16:29:15,744][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [reindex]
+[2019-04-01T16:29:15,745][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [repository-url]
+[2019-04-01T16:29:15,746][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [transport-netty4]
+[2019-04-01T16:29:15,746][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [tribe]
+[2019-04-01T16:29:15,746][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-ccr]
+[2019-04-01T16:29:15,746][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-core]
+[2019-04-01T16:29:15,746][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-deprecation]
+[2019-04-01T16:29:15,747][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-graph]
+[2019-04-01T16:29:15,747][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-ilm]
+[2019-04-01T16:29:15,747][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-logstash]
+[2019-04-01T16:29:15,750][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-ml]
+[2019-04-01T16:29:15,751][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-monitoring]
+[2019-04-01T16:29:15,751][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-rollup]
+[2019-04-01T16:29:15,751][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-security]
+[2019-04-01T16:29:15,751][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-sql]
+[2019-04-01T16:29:15,751][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-upgrade]
+[2019-04-01T16:29:15,752][INFO ][o.e.p.PluginsService     ] [-qs04s2] loaded module [x-pack-watcher]
+[2019-04-01T16:29:15,752][INFO ][o.e.p.PluginsService     ] [-qs04s2] no plugins loaded
+[2019-04-01T16:29:25,026][INFO ][o.e.x.s.a.s.FileRolesStore] [-qs04s2] parsed [0] roles from file [/usr/share/elasticsearch/config/roles.yml]
+[2019-04-01T16:29:26,564][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [-qs04s2] [controller/71] [Main.cc@109] controller (64 bit): Version 6.7.0 (Build d74ae2ac01b10d) Copyright (c) 2019 Elasticsearch BV
+[2019-04-01T16:29:28,455][INFO ][o.e.d.DiscoveryModule    ] [-qs04s2] using discovery type [zen] and host providers [settings]
+[2019-04-01T16:29:30,790][INFO ][o.e.n.Node               ] [-qs04s2] initialized
+[2019-04-01T16:29:30,795][INFO ][o.e.n.Node               ] [-qs04s2] starting ...
+[2019-04-01T16:29:31,190][INFO ][o.e.t.TransportService   ] [-qs04s2] publish_address {172.25.0.2:9300}, bound_addresses {0.0.0.0:9300}
+[2019-04-01T16:29:31,238][INFO ][o.e.b.BootstrapChecks    ] [-qs04s2] bound or publishing to a non-loopback address, enforcing bootstrap checks
+ERROR: [1] bootstrap checks failed
+[1]: max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2019-04-01T16:29:31,271][INFO ][o.e.n.Node               ] [-qs04s2] stopping ...
+[2019-04-01T16:29:31,297][INFO ][o.e.n.Node               ] [-qs04s2] stopped
+[2019-04-01T16:29:31,298][INFO ][o.e.n.Node               ] [-qs04s2] closing ...
+[2019-04-01T16:29:31,345][INFO ][o.e.n.Node               ] [-qs04s2] closed
+[2019-04-01T16:29:31,352][INFO ][o.e.x.m.p.NativeController] [-qs04s2] Native controller process has stopped - no new native processes can be started
