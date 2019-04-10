@@ -20,7 +20,7 @@ spec:
         component: ui
     spec:
       containers:
-      - image: alexeydoc/ui
+      - image: gryaznovart186/ui:latest
         name: ui
         env:
         - name: ENV
