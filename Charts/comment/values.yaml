@@ -6,3 +6,5 @@ service:
 image:
   repository: gryaznovart186
   tag: latest
+
+databaseHost:
